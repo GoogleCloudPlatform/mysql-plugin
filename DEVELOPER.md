@@ -86,8 +86,8 @@ and run at launch via `npx`, so there is no binary to compile or package.
 The primary maintainers for this repository are defined in the
 [`.github/CODEOWNERS`](.github/CODEOWNERS) file:
 
-*   `@gemini-cli-extensions/senseai-eco`
-*   `@gemini-cli-extensions/mysql-maintainers`
+*   `@GoogleCloudPlatform/senseai-eco`
+*   `@GoogleCloudPlatform/cloud-sql-mysql-plugin-maintainers`
 
 ### Releasing
 
