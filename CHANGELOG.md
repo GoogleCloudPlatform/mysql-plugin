@@ -1,66 +1,66 @@
 # Changelog
 
-## [0.1.6](https://github.com/gemini-cli-extensions/mysql/compare/0.1.5...0.1.6) (2026-08-21)
+## [0.1.6](https://github.com/GoogleCloudPlatform/mysql-plugin/compare/0.1.5...0.1.6) (2026-08-21)
 
 
 ### Features
 
-* adopt Agent Plugin spec and generate harness manifests ([#90](https://github.com/gemini-cli-extensions/mysql/issues/90)) ([8beae59](https://github.com/gemini-cli-extensions/mysql/commit/8beae59523a0554cd49dbd9831ad3ac50d1a5f68))
-* **deps:** update dependency @toolbox-sdk/server to v1.9.0 ([#91](https://github.com/gemini-cli-extensions/mysql/issues/91)) ([a097b9e](https://github.com/gemini-cli-extensions/mysql/commit/a097b9e8aa28f9665abbcccb0862791387110e50))
+* adopt Agent Plugin spec and generate harness manifests ([#90](https://github.com/GoogleCloudPlatform/mysql-plugin/issues/90)) ([8beae59](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/8beae59523a0554cd49dbd9831ad3ac50d1a5f68))
+* **deps:** update dependency @toolbox-sdk/server to v1.9.0 ([#91](https://github.com/GoogleCloudPlatform/mysql-plugin/issues/91)) ([a097b9e](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/a097b9e8aa28f9665abbcccb0862791387110e50))
 
-## [0.1.5](https://github.com/gemini-cli-extensions/mysql/compare/0.1.4...0.1.5) (2026-02-24)
+## [0.1.5](https://github.com/GoogleCloudPlatform/mysql-plugin/compare/0.1.4...0.1.5) (2026-02-24)
 
 
 ### Bug Fixes
 
-* remove broken keychain support for password ([#79](https://github.com/gemini-cli-extensions/mysql/issues/79)) ([78dc9b4](https://github.com/gemini-cli-extensions/mysql/commit/78dc9b4b7161a57d4ca9c5bb25d96c0093978098))
+* remove broken keychain support for password ([#79](https://github.com/GoogleCloudPlatform/mysql-plugin/issues/79)) ([78dc9b4](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/78dc9b4b7161a57d4ca9c5bb25d96c0093978098))
 
-## [0.1.4](https://github.com/gemini-cli-extensions/mysql/compare/0.1.3...0.1.4) (2026-01-29)
+## [0.1.4](https://github.com/GoogleCloudPlatform/mysql-plugin/compare/0.1.3...0.1.4) (2026-01-29)
 
 
 ### Features
 
-* **tools/mysql-get-query-plan:** Add new `mysql-get-query-plan` tool for MySQL source ([mcp-toolbox#​2123](https://redirect.github.com/googleapis/mcp-toolbox/issues/2123)) ([0641da0](https://redirect.github.com/googleapis/mcp-toolbox/commit/0641da0353857317113b2169e547ca69603ddfde)) ([3506ace](https://github.com/gemini-cli-extensions/mysql/commit/3506ace6e0befd06869da068573fd81b77bec40e))
-* add Configuration settings ([#69](https://github.com/gemini-cli-extensions/mysql/issues/69)) ([fee5c1c](https://github.com/gemini-cli-extensions/mysql/commit/fee5c1c546c5547f6db099fd4178b79b01db0950))
+* **tools/mysql-get-query-plan:** Add new `mysql-get-query-plan` tool for MySQL source ([mcp-toolbox#​2123](https://redirect.github.com/googleapis/mcp-toolbox/issues/2123)) ([0641da0](https://redirect.github.com/googleapis/mcp-toolbox/commit/0641da0353857317113b2169e547ca69603ddfde)) ([3506ace](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/3506ace6e0befd06869da068573fd81b77bec40e))
+* add Configuration settings ([#69](https://github.com/GoogleCloudPlatform/mysql-plugin/issues/69)) ([fee5c1c](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/fee5c1c546c5547f6db099fd4178b79b01db0950))
 
 
 ### Bug Fixes
 
-* **tools:** Check for query execution error for pgxpool.Pool ([mcp-toolbox#​1969](https://redirect.github.com/googleapis/mcp-toolbox/issues/1969)) ([2bff138](https://redirect.github.com/googleapis/mcp-toolbox/commit/2bff1384a3570ef46bc03ebebc507923af261987)) ([3506ace](https://github.com/gemini-cli-extensions/mysql/commit/3506ace6e0befd06869da068573fd81b77bec40e))
+* **tools:** Check for query execution error for pgxpool.Pool ([mcp-toolbox#​1969](https://redirect.github.com/googleapis/mcp-toolbox/issues/1969)) ([2bff138](https://redirect.github.com/googleapis/mcp-toolbox/commit/2bff1384a3570ef46bc03ebebc507923af261987)) ([3506ace](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/3506ace6e0befd06869da068573fd81b77bec40e))
 
-## [0.1.3](https://github.com/gemini-cli-extensions/mysql/compare/0.1.2...0.1.3) (2025-11-18)
-
-
-### Features
-
-* **source/mysql:** Set default host and port for MySQL source ([mcp-toolbox#​1922](https://redirect.github.com/googleapis/mcp-toolbox/issues/1922)) ([2c228ef](https://redirect.github.com/googleapis/mcp-toolbox/commit/2c228ef4f2d4cb8dfc41e845466bfe3566d141a1)) ([a0d7947](https://github.com/gemini-cli-extensions/mysql/commit/a0d7947a9b5071ee477a01f116abae3b7818f372))
-
-## [0.1.2](https://github.com/gemini-cli-extensions/mysql/compare/0.1.1...0.1.2) (2025-10-27)
+## [0.1.3](https://github.com/GoogleCloudPlatform/mysql-plugin/compare/0.1.2...0.1.3) (2025-11-18)
 
 
 ### Features
 
-* **sources/alloydb,cloudsqlpg,cloudsqlmysql,cloudsqlmssql:** Support PSC connection ([#1686](https://redirect.github.com/googleapis/mcp-toolbox/issues/1686)) ([9d2bf79](https://redirect.github.com/googleapis/mcp-toolbox/commit/9d2bf79becfda104ef77f34b8d4b22cbedbc4bf3)) ([6349c2c](https://github.com/gemini-cli-extensions/mysql/commit/6349c2c289cef74ad4568419ea24892689c478e0))
-* Add program name to MySQL connections ([#1617](https://redirect.github.com/googleapis/mcp-toolbox/issues/1617)) ([c4a22b8](https://redirect.github.com/googleapis/mcp-toolbox/commit/c4a22b8d3bd0307325215ebd2f30ba37927cd37e)) ([6349c2c](https://github.com/gemini-cli-extensions/mysql/commit/6349c2c289cef74ad4568419ea24892689c478e0))
+* **source/mysql:** Set default host and port for MySQL source ([mcp-toolbox#​1922](https://redirect.github.com/googleapis/mcp-toolbox/issues/1922)) ([2c228ef](https://redirect.github.com/googleapis/mcp-toolbox/commit/2c228ef4f2d4cb8dfc41e845466bfe3566d141a1)) ([a0d7947](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/a0d7947a9b5071ee477a01f116abae3b7818f372))
+
+## [0.1.2](https://github.com/GoogleCloudPlatform/mysql-plugin/compare/0.1.1...0.1.2) (2025-10-27)
+
+
+### Features
+
+* **sources/alloydb,cloudsqlpg,cloudsqlmysql,cloudsqlmssql:** Support PSC connection ([#1686](https://redirect.github.com/googleapis/mcp-toolbox/issues/1686)) ([9d2bf79](https://redirect.github.com/googleapis/mcp-toolbox/commit/9d2bf79becfda104ef77f34b8d4b22cbedbc4bf3)) ([6349c2c](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/6349c2c289cef74ad4568419ea24892689c478e0))
+* Add program name to MySQL connections ([#1617](https://redirect.github.com/googleapis/mcp-toolbox/issues/1617)) ([c4a22b8](https://redirect.github.com/googleapis/mcp-toolbox/commit/c4a22b8d3bd0307325215ebd2f30ba37927cd37e)) ([6349c2c](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/6349c2c289cef74ad4568419ea24892689c478e0))
 
 
 ### Bug Fixes
 
-* **sources/mysql:** Escape mysql user agent ([#1707](https://redirect.github.com/googleapis/mcp-toolbox/issues/1707)) ([eeb694c](https://redirect.github.com/googleapis/mcp-toolbox/commit/eeb694c20facc40a38bfa67073c4cb1f3dd657ff)) ([6349c2c](https://github.com/gemini-cli-extensions/mysql/commit/6349c2c289cef74ad4568419ea24892689c478e0))
-* **sources/mysql:** Escape program\_name for MySQL ([#1717](https://redirect.github.com/googleapis/mcp-toolbox/issues/1717)) ([02f7f8a](https://redirect.github.com/googleapis/mcp-toolbox/commit/02f7f8af979057efe99fd138cb1b958130355b68)) ([6349c2c](https://github.com/gemini-cli-extensions/mysql/commit/6349c2c289cef74ad4568419ea24892689c478e0))
-* **tools/mysql-list-tables:** Update sql query to resolve subquery scope error ([#1629](https://redirect.github.com/googleapis/mcp-toolbox/issues/1629)) ([94e19d8](https://redirect.github.com/googleapis/mcp-toolbox/commit/94e19d87e54e831b80eb766572e48bc7370305d8)) ([6349c2c](https://github.com/gemini-cli-extensions/mysql/commit/6349c2c289cef74ad4568419ea24892689c478e0))
+* **sources/mysql:** Escape mysql user agent ([#1707](https://redirect.github.com/googleapis/mcp-toolbox/issues/1707)) ([eeb694c](https://redirect.github.com/googleapis/mcp-toolbox/commit/eeb694c20facc40a38bfa67073c4cb1f3dd657ff)) ([6349c2c](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/6349c2c289cef74ad4568419ea24892689c478e0))
+* **sources/mysql:** Escape program\_name for MySQL ([#1717](https://redirect.github.com/googleapis/mcp-toolbox/issues/1717)) ([02f7f8a](https://redirect.github.com/googleapis/mcp-toolbox/commit/02f7f8af979057efe99fd138cb1b958130355b68)) ([6349c2c](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/6349c2c289cef74ad4568419ea24892689c478e0))
+* **tools/mysql-list-tables:** Update sql query to resolve subquery scope error ([#1629](https://redirect.github.com/googleapis/mcp-toolbox/issues/1629)) ([94e19d8](https://redirect.github.com/googleapis/mcp-toolbox/commit/94e19d87e54e831b80eb766572e48bc7370305d8)) ([6349c2c](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/6349c2c289cef74ad4568419ea24892689c478e0))
 
-## [0.1.1](https://github.com/gemini-cli-extensions/mysql/compare/0.1.0...0.1.1) (2025-09-30)
+## [0.1.1](https://github.com/GoogleCloudPlatform/mysql-plugin/compare/0.1.0...0.1.1) (2025-09-30)
 
 
 ### Features
 
-* additional instructions for the context file ([#27](https://github.com/gemini-cli-extensions/mysql/issues/27)) ([ab0b328](https://github.com/gemini-cli-extensions/mysql/commit/ab0b328b0d8e2863f4b29b0dff1a01e9249debea))
-* standardize mcp server names ([#24](https://github.com/gemini-cli-extensions/mysql/issues/24)) ([1402893](https://github.com/gemini-cli-extensions/mysql/commit/1402893e66523f94cb8f59724ac7808a3117ba6e))
+* additional instructions for the context file ([#27](https://github.com/GoogleCloudPlatform/mysql-plugin/issues/27)) ([ab0b328](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/ab0b328b0d8e2863f4b29b0dff1a01e9249debea))
+* standardize mcp server names ([#24](https://github.com/GoogleCloudPlatform/mysql-plugin/issues/24)) ([1402893](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/1402893e66523f94cb8f59724ac7808a3117ba6e))
 
 ## 0.1.0 (2025-09-21)
 
 
 ### Features
 
-* Add MySQL Extension ([180287f](https://github.com/gemini-cli-extensions/mysql/commit/180287f9d568eb452701c417e37630435e7cb123))
+* Add MySQL Extension ([180287f](https://github.com/GoogleCloudPlatform/mysql-plugin/commit/180287f9d568eb452701c417e37630435e7cb123))
