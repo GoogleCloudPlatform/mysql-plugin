@@ -40,27 +40,27 @@ All harnesses use the same plugin; the MCP server runs via `npx` (no binary to d
 **Gemini CLI**
 
 ```bash
-gemini extensions install https://github.com/gemini-cli-extensions/mysql
+gemini extensions install https://github.com/GoogleCloudPlatform/mysql-plugin
 ```
 
 **Claude Code**
 
 ```bash
-claude plugin marketplace add gemini-cli-extensions/mysql
+claude plugin marketplace add GoogleCloudPlatform/mysql-plugin
 claude plugin install mysql@mysql
 ```
 
 **Codex**
 
 ```bash
-codex plugin marketplace add gemini-cli-extensions/mysql
+codex plugin marketplace add GoogleCloudPlatform/mysql-plugin
 codex plugin add mysql@mysql
 ```
 
 **Antigravity**
 
 ```bash
-agy plugin install https://github.com/gemini-cli-extensions/mysql
+agy plugin install https://github.com/GoogleCloudPlatform/mysql-plugin
 ```
 
 See [Configuration](#configuration) for how each harness supplies the connection settings.
@@ -128,7 +128,7 @@ Interact with MySQL using natural language right from your IDE:
 ## Additional Extensions
 
 Find additional extensions to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions), including:
-* [Cloud SQL for MySQL extension](https://github.com/gemini-cli-extensions/cloud-sql-mysql)
+* [Cloud SQL for MySQL extension](https://github.com/GoogleCloudPlatform/cloud-sql-mysql-plugin)
 * and more!
 
 ## Troubleshooting
